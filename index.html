@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="rock-paper.css">
+</head>
+<body>
+    <!-- button onclick event is used -->
+    <!-- <p class="header">Rock Paper Scissors</p>
+    <button onclick="games('Rock');
+    " class="img-button js-rock-button"><img src="rock-emoji.png" alt="Rock" class="emoji"></button>
+
+    <button onclick="games('Paper');
+    " class="img-button"><img src="paper-emoji.png" alt="Paper" class="emoji"></button>
+
+    <button onclick="games('Scissors');
+    " class="img-button"><img src="scissors-emoji.png" alt="Scissor" class="emoji"></button> -->
+
+    <!-- .addEventListener is used instead of onclick-->
+    <button class="img-button js-rock-button"><img src="images/rock-emoji.png" alt="Rock" class="emoji"></button>
+
+    <button class="img-button js-paper-button"><img src="images/paper-emoji.png" alt="Paper" class="emoji"></button>
+
+    <button class="img-button js-scissor-button"><img src="images/scissors-emoji.png" alt="Scissor" class="emoji"></button>
+
+    <p class="js-result"></p>
+    <p class="js-moves"></p>
+
+    <p class="js-score"></p>
+
+    <button onclick="
+    score.win=0;
+    score.losses=0;
+    score.Tie=0;
+    localStorage.removeItem('score');
+    updateScoreElement();
+    " class="reset">Reset Score</button>
+    <button class="js-auto-button" onclick="autoPlay()">Auto Play</button>
+    <script src="Rock-Paper.js"></script>
+</body>
+</html>

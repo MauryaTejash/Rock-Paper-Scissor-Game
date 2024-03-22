@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(25,25,25);
+    color: white;
+}
+.header{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.emoji{
+    height: 50px;
+    padding: 10px;
+}
+.img-button{
+    background-color: transparent;
+    border: 2px solid white;
+    height: 110px;
+    width: 110px;
+    border-radius: 50px;
+    margin: 4px;
+    cursor: pointer;
+}
+.js-result{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.js-moves{
+    font-size: 20px;
+    /* margin-top: 10px; */
+    margin-bottom: 60px;
+}
+.js-score{
+    font-size: 20px;
+    margin-top: 30px
+}
+.reset, .js-auto-button{
+    border: none;
+    background-color: white;
+    font-size: 15px;
+    padding: 8px 15px;
+    cursor: pointer;
+}
