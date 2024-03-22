@@ -63,7 +63,7 @@ document.body.addEventListener('keydown',(event)=>
             //this is the function call for random generation of pick
             pickcomputerMove();
             let result='';
-            if(playerMove==='scissors')
+            if(playerMove==='Scissors')
             {
                 if(computerMove==='Rock')
                 {
@@ -78,7 +78,7 @@ document.body.addEventListener('keydown',(event)=>
                     result='Tie.';
                 }
             }
-            else if(playerMove==='paper')
+            else if(playerMove==='Paper')
             {
                 if(computerMove==='Rock')
                 {
@@ -93,7 +93,7 @@ document.body.addEventListener('keydown',(event)=>
                     result='You loose.';
                 }
             }
-            else if(playerMove==='rock')
+            else if(playerMove==='Rock')
             {
                 if(computerMove==='Rock')
                 {
